@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,14 +8,17 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="red-heart-emoji.png">
 </head>
+
 <body>
     <header>
-        <img src="" alt="Jacky Do logo😎">  </header>
+        <img src="" alt="Jacky Do logo😎">
+    </header>
 
     <main>
         <section class="quote">
             <h2>Happy chị em<br> <span>8/3 </span></h2>
-            <p>Where flowers are our inspiration to create lasting memories. Whatever the occasion, our flowers will make it special.</p>
+            <p>Where flowers are our inspiration to create lasting memories. Whatever the occasion, our flowers will
+                make it special.</p>
             <button>Shop Now</button>
         </section>
 
@@ -39,6 +43,42 @@
             </ul>
         </section>
 
+        <section class="order">
+            <h2>Order Your Flowers</h2>
+            <div class="order-container">
+                <form>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td><label for="name">Name:</label></td>
+                                <td><input type="text" id="name" name="name" required></td>
+                            </tr>
+                            <tr>
+                                <td><label for="email">Email:</label></td>
+                                <td><input type="email" id="email" name="email" required></td>
+                            </tr>
+                            <tr>
+                                <td><label for="phone">Phone Number:</label></td>
+                                <td><input type="tel" id="phone" name="phone" required></td>
+                            </tr>
+                            <tr>
+                                <td><label for="flower">Flower Choice:</label></td>
+                                <td>
+                                    <select id="flower" name="flower" required>
+                                        <option value="">Choose a Flower</option>
+                                        <option value="garden-tulip">Garden Tulip</option>
+                                        <option value="tulip">Tulip</option>
+                                        <option value="parrot-tulip">Parrot Tulips</option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+                <button type="submit">Submit Order</button>
+            </div>
+        </section>
+
         <section class="gallery">
             <h2>Explore More</h2>
             <ul>
@@ -55,4 +95,5 @@
     </footer>
 
 </body>
+
 </html>
