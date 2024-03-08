@@ -5,40 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>chucmungchiemngay8/3</title>
+    
+    <link rel="icon" type="image/png" href="favicon-16x16.png">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="red-heart-emoji.png">
+    
 </head>
 
 <body>
     <header>
-        <img src="" alt="Jacky Do logo😎">
+        <img src="wallpaperjpg.jpg" width="100%" alt="Jacky Do logo😎">
     </header>
 
     <main>
         <section class="quote">
-            <h2>Happy chị em<br> <span>8/3 </span></h2>
+            <h2><span class="women-day">8/3</span><br> <span class="sale">BIG SALE </span></h2>
             <p>Where flowers are our inspiration to create lasting memories. Whatever the occasion, our flowers will
                 make it special.</p>
             <button>Shop Now</button>
         </section>
 
         <section class="popular">
-            <h2>Popular Flowers</h2>
+            <h2>Special Combo</h2>
             <ul>
                 <li>
-                    <img src="flower1.jpg" alt="Flower 1">
-                    <h3>Garden Tulip</h3>
-                    <span class="price">500k</span>
+                    <img src="combo.webp" width="300" alt="Flower 1">
+                    <h3>Esthétique</h3>
+                    <span class="price">$500</span>
                 </li>
                 <li>
-                    <img src="flower2.jpg" alt="Flower 2">
-                    <h3>Tulip</h3>
-                    <span class="price">1 củ</span>
+                    <img src="rose.webp" width="300" alt="Flower 2">
+                    <h3>Rose</h3>
+                    <span class="price">$50</span>
                 </li>
                 <li>
-                    <img src="flower3.jpg" alt="Flower 3">
+                    <img src="tulip.webp" width="300" alt="Flower 3">
                     <h3>Parrot Tulips</h3>
-                    <span class="price">3 củ 9</span>
+                    <span class="price">$25</span>
                 </li>
             </ul>
         </section>
@@ -65,27 +67,36 @@
                                 <td><label for="flower">Flower Choice:</label></td>
                                 <td>
                                     <select id="flower" name="flower" required>
-                                        <option value="">Choose a Flower</option>
-                                        <option value="garden-tulip">Garden Tulip</option>
-                                        <option value="tulip">Tulip</option>
-                                        <option value="parrot-tulip">Parrot Tulips</option>
+                                        <option value="" selected disabled>Choose a Flower (buy 1 only)</option>
+                                        <option value="Esthétique">Esthétique</option>
+                                        <option value="rose">Rose</option>
+                                        <option value="parrot-tulip">Tulips</option>
                                     </select>
                                 </td>
                             </tr>
                         </tbody>
                     </table>
                 </form>
-                <button type="submit">Submit Order</button>
+                <button class="submit" type="submit">Submit Order</button>
             </div>
+        </section>
+
+        <section>
+            <table class="location">
+                <td>
+                    <h2>Our Location</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1971.3870103991592!2d106.69219088711425!3d10.729450541237822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752fbea5fe3db1%3A0xfae94aca5709003f!2sRMIT%20University%20Vietnam%20-%20Saigon%20South%20campus!5e0!3m2!1sen!2s!4v1678337072898!5m2!1sen!2s" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </td>
+            </table>
         </section>
 
         <section class="gallery">
             <h2>Explore More</h2>
             <ul>
-                <li><a href="#">Bộ sưu tập winter</a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
+                <li><a href="#">Winder Garden</a></li>
+                <li><a href="#">Summer Garden</a></li>
+                <li><a href="#">Spring Garden</a></li>
+                <li><a href="#">Autumn Garden</a></li>
             </ul>
         </section>
     </main>
@@ -95,5 +106,4 @@
     </footer>
 
 </body>
-
 </html>
